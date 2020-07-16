@@ -1,0 +1,14 @@
+name: Greeting
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Thank for commit
+      run: |
+        echo Your code has been committed
