@@ -1,4 +1,4 @@
-name: Greeting
+name: Commit Successful
 
 on: [push]
 
@@ -9,6 +9,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Thank for commit
+    - name: Commit successful
       run: |
         echo Your code has been committed
