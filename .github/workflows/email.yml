@@ -11,4 +11,4 @@ gratitude:
     steps:
     - run: |
     echo "Hello ${{github.events.inputs.name }}."
-    echo Your commit has been received.
+    echo "Your commit has been received."
